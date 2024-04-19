@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    max-width: 1024px;
+}
+
+#kategoriak > select {
+    margin: 4px;
+}
+
+.teszt {
+    width: 100%;
+    padding: 4px;
+    border-radius: 8px;
+    border: lightgray 4px solid;
+    margin-bottom: 8px;
+}
+
+.kerdes {
+    width: 100%;
+    padding: 4px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 4px;
+    color: white;
+}
+
+.valaszok {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.valaszok > button {
+    margin: 4px;
+}
+
+.helyes {
+    background-color: greenyellow;
+}
+
+.helytelen {
+    background-color: orangered;
+}
+
+#helyes-valaszok {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (max-width: 512px) {
+    .valaszok {
+        grid-template-columns: 1fr;
+    }
+}

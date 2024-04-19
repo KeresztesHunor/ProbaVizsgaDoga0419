@@ -1,0 +1,57 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "vizsga",
+    "dateExported": "2024-04-19T13:33:52.880Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b93a27f3-3415-44c4-9ba5-85546f569311",
+            "colId": "8dccc2c5-13f1-45b6-b2b9-38db55dc0382",
+            "containerId": "",
+            "name": "get kategoriak",
+            "url": "kategoriak",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-19T13:31:27.297Z",
+            "modified": "2024-04-19T13:32:15.642Z",
+            "headers": []
+        },
+        {
+            "_id": "4389abce-2888-4bff-a96e-9de6ac33a528",
+            "colId": "8dccc2c5-13f1-45b6-b2b9-38db55dc0382",
+            "containerId": "",
+            "name": "get tesztek",
+            "url": "tesztek",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-19T13:32:25.576Z",
+            "modified": "2024-04-19T13:32:35.644Z",
+            "headers": []
+        },
+        {
+            "_id": "3d428498-4213-420f-a0ff-959c6592d636",
+            "colId": "8dccc2c5-13f1-45b6-b2b9-38db55dc0382",
+            "containerId": "",
+            "name": "get tesztek kategoria id lapján",
+            "url": "tesztek/kategoria/{id}",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-19T13:32:58.824Z",
+            "modified": "2024-04-19T13:33:40.208Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": true
+                }
+            ]
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:5150/"
+        }
+    }
+}
